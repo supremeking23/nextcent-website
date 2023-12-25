@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:wght@300&display=swap');
+
+/* directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+header ul li {
+    /* mr 20px  */
+    @apply mr-5;
+}
+
+.nav-link {
+    @apply text-nextcent_colors-grey-dark;
+}
+
+.btn-primary {
+    @apply text-nextcent_colors-white bg-nextcent_colors-primary py-3 px-6 rounded;
+}
+
+section {
+    @apply py-5 px-12 mb-8;
+}
+
+.client-section, .community-section {
+    @apply  flex flex-col items-center;
+}
+
+section h2 {
+    @apply text-3xl font-bold text-nextcent_colors-grey-dark text-center m-0 mb-1;
+}
+
+section .sub-header {
+    @apply text-center text-nextcent_colors-grey-normal mb-3;
+}
+
+.clients {
+    @apply w-14 mr-12;
+}
+
+.card-community h3 {
+    @apply text-2xl w-32 font-bold text-nextcent_colors-grey-dark text-center m-auto mb-1;
+}
+
+.card-community {
+    @apply w-72 text-center shadow-md p-2;
+}
+
+.card-marketing {
+    @apply relative w-72 shadow-md;
+}
+
+.card-marketing img {
+    @apply object-cover;
+}
+
+.card-marketing div {
+    @apply absolute bg-nextcent_colors-silver shadow-2xl text-center rounded-md font-semibold pt-3 pb-6 px-1.5 -bottom-16 w-9/12 right-9;
+}
+
+.card-marketing div h3 {    
+    @apply text-nextcent_colors-grey-normal mb-3;
+}
+
+.card-marketing div a {
+    @apply text-nextcent_colors-primary;
+}
+
+/* icon */
+.community {
+    @apply w-14 m-auto;
+}
+
+.local-help {
+    @apply flex items-center gap-2 mb-5;
+}
+
+.local-help h3 {
+    @apply font-bold text-xl text-left text-nextcent_colors-grey-dark;
+}
+
+.local-help h3 {
+    @apply text-nextcent_colors-grey-normal;
+}
+
+.local-help p {
+    @apply text-nextcent_colors-grey-normal
+}
+
+.local-help img {
+    @apply w-7 mr-1;
+}
+
+.last-section h2 {
+    @apply w-2/4;
+}
+
+
+.footer-logo {
+    @apply mb-5;
+}
+
+.footer-logo-section p:last-of-type {
+    @apply mb-7;
+}
+
+footer h3 {
+    @apply font-semibold mb-4;
+}
+
+
+footer .link-list li {
+    @apply mb-1;
+}
+
+footer .links {
+    @apply text-sm text-nextcent_colors-silver;
+}
+
+footer .stay-updated-form {
+    background: rgba(255, 255, 255, .2);
+    padding: 13px 10px;
+    @apply rounded-lg;
+}
+
+footer .stay-updated-form #email {
+    background: transparent;
+    @apply text-nextcent_colors-white;
+}
+
+footer .stay-updated-form #email::placeholder {
+    @apply text-nextcent_colors-silver
+}
+
+footer .stay-updated-form #email:focus {
+    outline: unset;
+}
+
+.footer-social-media-icons {
+    @apply w-5;
+}
+
+
+.footer-social-media-icon-list li {
+    background: rgba(255, 255, 255, .2);
+    @apply p-2.5 rounded-full;
+}
