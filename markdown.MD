@@ -1,2 +1,0 @@
-# NextCent Website
-## demo link : 
